@@ -2,7 +2,7 @@ package com;
 
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
@@ -25,7 +25,7 @@ public class TestTitle {
 
 	@BeforeTest
 	public void beforeTest() throws Exception {
-		driver = new FirefoxDriver();
+		driver = new ChromeDriver();
 	}
 
 	@AfterTest
